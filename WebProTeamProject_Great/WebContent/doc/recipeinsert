@@ -1,0 +1,176 @@
+INSERT INTO RECIPE VALUES(
+				recipe_seq.nextVal,'불고기' ,'./img/recipe_main/beef/bgg.jpg' ,
+				'소고기','양파,대바,간장','관리자',
+				sysdate, 'beef', 1, '얇게 저민 소고기를 양념에 재워서 구워 먹는 한국인의 대표 양념구이요리',
+				'1.소고기를 저민다/2.양념을 만든다./3.소고기를 양념에 재운다./4.맛있게 먹는다.',
+				'냉장고에 하루정도 재워두신 드시다.','true' );
+                
+INSERT INTO RECIPE VALUES(
+				recipe_seq.nextVal,'돼지고기 주물럭' ,'./img/recipe_main/beef/djggjml.jpg' ,
+				'돼지고기','양파,대바,고추장','관리자',
+				sysdate, 'beef', 1, '돼지고기를 양념에 재워서 구워 먹는 한국인의 대표 양념구이요리',
+				'1.돼지고기를 준비한다./2.양념을 만든다./3.소고기를 양념에 재운다./4.맛있게 먹는다.',
+				'냉장고에 하루정도 재워두신 드시다.','true' );
+				
+INSERT INTO RECIPE VALUES(
+				recipe_seq.nextVal,'고추장삼겹살' ,'./img/recipe_main/beef/gcjsgs.jpg' ,
+				'돼지고기','양파,대바,고추장','관리자',
+				sysdate, 'beef', 1, '주물럭/제육볶음과 비슷하지만 삼겹살부위를 쓴다.',
+				'1.돼지고기를 준비한다./2.양념을 만든다./3.소고기를 양념에 재운다./4.맛있게 먹는다.',
+				'냉장고에 하루정도 재워두신 드시다.','true' );
+
+INSERT INTO RECIPE VALUES(
+				recipe_seq.nextVal,'해물두루치기' ,'./img/recipe_main/beef/hmdrcg.jpg' ,
+				'돼지고기,해물','양파,대바,고추장','관리자',
+				sysdate, 'beef', 1, '주물럭/제육볶음의 다른이름 해물을 같이한다.',
+				'1.돼지고기를 준비한다./2.양념을 만든다./3.소고기를 양념에 재운다./4.맛있게 먹는다.',
+				'냉장고에 하루정도 재워두신 드시다.','true' );
+				
+				
+INSERT INTO RECIPE VALUES(
+				recipe_seq.nextVal,'장조림' ,'./img/recipe_main/beef/jjr.jpg' ,
+				'소고기','양파,계란,간장,설탕','관리자',
+				sysdate, 'beef', 1, '소고기를 간장양념에 졸여만든 요리',
+				'1.소고기를 큼지막하게 준비한다./2.양념간장을 만든다./3.양념에 소고기를 넣고 양념이 반정도 줄때까지 끓인다./4.맛있게 먹는다.',
+				'졸일때는 중불로!','true' );
+                
+INSERT INTO RECIPE VALUES(
+				recipe_seq.nextVal,'미트볼' ,'./img/recipe_main/beef/mtb.jpg' ,
+				'돼지고기','양파,계란,간장,설탕','관리자',
+				sysdate, 'beef', 1, '돼지고기를 다져서 밀가루와 함께 동그라케 뭉쳐 만든 아이들 간식',
+				'1.돼지고기를 다져서 밀가루와 반죽한다./2.동그랗게 뭉친다./3.기름에 굽거나 튀겨서 낸다./4.맛있게 먹는다.',
+				'기름조심!!','false' );
+
+INSERT INTO RECIPE VALUES(
+				recipe_seq.nextVal,'스테이크' ,'./img/recipe_main/beef/stic.jpg' ,
+				'소고기','양파,계란,간장,설탕','관리자',
+				sysdate, 'beef', 1, '소고기를 간장양념에 졸여만든 요리',
+				'1.소고기를 큼지막하게 준비한다./2.강불로 코팅을 한다../3.속이 충분이 익도록 잘익힌다./4.맛있게 먹는다.',
+				'육즙이 중요!','false' );
+
+
+INSERT INTO RECIPE VALUES(
+				recipe_seq.nextVal,'김치우동' ,'./img/recipe_main/noodle/gcud.jpg' ,
+				'우동면','김치,양파,다데기','관리자',
+				sysdate, 'noodle', 2, '우동면을 김치국물육수에 끓어담아낸 요리',
+				'1.육수를 끊인다./2.김치와 야채를 넣고 끓여낸다./3.면을 넣고 삶는다./4.맛있게 먹는다.',
+				'면은 7분','true' );
+				
+INSERT INTO RECIPE VALUES(
+				recipe_seq.nextVal,'간장비빔국수' ,'./img/recipe_main/noodle/gjbbgs.jpg' ,
+				'소면','간장,돼지고기','관리자',
+				sysdate, 'noodle', 2, '소면을 간장소스에 비벼낸 차게 먹는 국수요리',
+				'1.돼지고기와 각종야채를 삶는다./2.면을삶는다./3.면이익으면 건져내어 야채와고기를 넣고 간장소스에 비벼먹는다.',
+				'면은 3분','true' );
+				
+INSERT INTO RECIPE VALUES(
+				recipe_seq.nextVal,'짜빠구리' ,'./img/recipe_main/noodle/jbgr.jpg' ,
+				'너구리,짜빠게티','김치,양파','관리자',
+				sysdate, 'noodle', 2, '우동면을 김치국물육수에 끓어담아낸 요리',
+				'1.너구리와 짜빠게티의 면을 삶는다./2.너구리 스프의 절반을 넣고 짜빠게티소스를 넣고 비빈다./3.양파나 대파를 얹는다./4.맛있게 먹는다.',
+				'소스는 기호대로','false' );
+				
+INSERT INTO RECIPE VALUES(
+				recipe_seq.nextVal,'쟁반국수' ,'./img/recipe_main/noodle/jbgs.jpg' ,
+				'메밀면','당근,상추,무,오이','관리자',
+				sysdate, 'noodle', 2, '메밀면을 소스와 야채를 넣고 버무려서 먹는 요리',
+				'1.야채를 잘게 썰어놓는다./2.면을 삶는다./3.면과 야채를 배치하고 잘배치해둔다./4.맛있게 먹는다.',
+				'면은 7분','true' );				
+				
+INSERT INTO RECIPE VALUES(
+				recipe_seq.nextVal,'잡채' ,'./img/recipe_main/noodle/jc.jpg' ,
+				'당면','시금치,당근','관리자',
+				sysdate, 'noodle', 2, '당면을 야채와 넣고 볶아낸 한국 전통 요리',
+				'1.야채를 채썬다./2.야채를 넣고 볶는다./3.당면을 삶아 넣고 같이 볶는다./4.맛있게 먹는다.',
+				'소고기가 생명','false' );				
+				
+INSERT INTO RECIPE VALUES(
+				recipe_seq.nextVal,'소고기잡채' ,'./img/recipe_main/noodle/sggjc.jpg' ,
+				'당면,소고기','시금치,당근','관리자',
+				sysdate, 'noodle', 2, '당면을 야채와 소고기를 넣고 볶아낸 한국 전통 요리',
+				'1.야채와 소고기를 채썬다./2.야채와 소고기를 넣고 볶는다./3.당면을 삶아 넣고 같이 볶는다./4.맛있게 먹는다.',
+				'소고기가 생명','true' );			
+				
+INSERT INTO RECIPE VALUES(
+				recipe_seq.nextVal,'볶음밥' ,'./img/recipe_main/rice/bub.jpg' ,
+				'밥','당근,소고기','관리자',
+				sysdate, 'rice', 2, '밥을 각종 야채와 고기를 넣고 볶아낸 요리',
+				'1.야채와 소고기를 다진다./2.밥과 야채를 넣고 볶는다./3.볶음밥과 김치를 접시에 담는다 ./4.맛있게 먹는다.',
+				'무엇을 넣어도 된다. 단 간맞추기가 생명','true' );			
+				
+INSERT INTO RECIPE VALUES(
+				recipe_seq.nextVal,'김밥' ,'./img/recipe_main/rice/gb.jpg' ,
+				'밥,김','햄,단무지,계란','관리자',
+				sysdate, 'rice', 2, '밥과 김에 단무지와 야채 햄을 넣고 말아서 썰어낸 요리',
+				'1.밥에 밑간을 해 준비한다./2.야채를 볶아내고 지단을 만든다./3.김에 밥을 눌러 펴고 그사이에 야채와 햄,단무지를 넣고 만다./4.썰어서 맛있게 먹는다.',
+				'소고기가 생명','false' );			
+				
+INSERT INTO RECIPE VALUES(
+				recipe_seq.nextVal,'김치알밥' ,'./img/recipe_main/rice/gcab.jpg' ,
+				'김치,날치알,밥','시금치,당근','관리자',
+				sysdate, 'rice', 2, '당면을 야채와 소고기를 넣고 볶아낸 한국 전통 요리',
+				'1.야채와 소고기를 채썬다./2.야채와 소고기를 넣고 볶는다./3.당면을 삶아 넣고 같이 볶는다./4.맛있게 먹는다.',
+				'소고기가 생명','false' );			
+				
+INSERT INTO RECIPE VALUES(
+				recipe_seq.nextVal,'곤드레밥' ,'./img/recipe_main/rice/gdrb.jpg' ,
+				'곤드레,밥','양념장','관리자',
+				sysdate, 'rice', 2, '쌀과 곤드레를 같이넣고 밥을 지어 양념장에 비벼먹는 밥',
+				'1.야채와 소고기를 채썬다./2.야채와 소고기를 넣고 볶는다./3.당면을 삶아 넣고 같이 볶는다./4.맛있게 먹는다.',
+				'소고기가 생명','false' );			
+				
+INSERT INTO RECIPE VALUES(
+				recipe_seq.nextVal,'주먹밥' ,'./img/recipe_main/rice/jmb.jpg' ,
+				'밥','시금치,당근','관리자',
+				sysdate, 'rice', 2, '밥을 동그렇게 뭉치고 그안에 재료를 넣어 만든 밥뭉터기',
+				'1.야채와 소고기를 채썬다./2.야채와 소고기를 넣고 볶는다./3.당면을 삶아 넣고 같이 볶는다./4.맛있게 먹는다.',
+				'소고기가 생명','false' );			
+				
+INSERT INTO RECIPE VALUES(
+				recipe_seq.nextVal,'발사믹 샐러드' ,'./img/recipe_main/salad/bsmsld.jpg' ,
+				'야채,발사믹소스','이것저것','관리자',
+				sysdate, 'rice', 2, '야채와 발사믹 소스를 넣은 샐러드',
+				'1.야채와 소고기를 채썬다./2.야채와 소고기를 넣고 볶는다./3.당면을 삶아 넣고 같이 볶는다./4.맛있게 먹는다.',
+				'소고기가 생명','false' );			
+INSERT INTO RECIPE VALUES(
+				recipe_seq.nextVal,'샐러드' ,'./img/recipe_main/salad/bssld.jpg' ,
+				'야채','소스','관리자',
+				sysdate, 'rice', 2, '야채와 소스를 비벼낸 요리',
+				'1.야채와 소고기를 채썬다./2.야채와 소고기를 넣고 볶는다./3.당면을 삶아 넣고 같이 볶는다./4.맛있게 먹는다.',
+				'','false' );			
+								
+INSERT INTO RECIPE VALUES(
+				recipe_seq.nextVal,'닭가슴살' ,'./img/recipe_main/salad/dgsssld.jpg' ,
+				'닭가슴살','야채,소스','관리자',
+				sysdate, 'rice', 2, '닭그슴살과 샐러드 소스를 비벼낸 샐러드',
+				'1.야채와 소고기를 채썬다./2.야채와 소고기를 넣고 볶는다./3.당면을 삶아 넣고 같이 볶는다./4.맛있게 먹는다.',
+				'','false' );			
+
+INSERT INTO RECIPE VALUES(
+				recipe_seq.nextVal,'단호발 샐러드' ,'./img/recipe_main/salad/dhbsld.jpg' ,
+				'단호박','마요네즈','관리자',
+				sysdate, 'rice', 2, '당면을 야채와 소고기를 넣고 볶아낸 한국 전통 요리',
+				'1.야채와 소고기를 채썬다./2.야채와 소고기를 넣고 볶는다./3.당면을 삶아 넣고 같이 볶는다./4.맛있게 먹는다.',
+				'소고기가 생명','false' );			
+INSERT INTO RECIPE VALUES(
+				recipe_seq.nextVal,'과일' ,'./img/recipe_main/salad/gisld.jpg' ,
+				'과일,야채','소스','관리자',
+				sysdate, 'rice', 2, '당면을 야채와 소고기를 넣고 볶아낸 한국 전통 요리',
+				'1.야채와 소고기를 채썬다./2.야채와 소고기를 넣고 볶는다./3.당면을 삶아 넣고 같이 볶는다./4.맛있게 먹는다.',
+				'소고기가 생명','false' );			
+INSERT INTO RECIPE VALUES(
+				recipe_seq.nextVal,'스테이크 샐러드' ,'./img/recipe_main/salad/sticypsld.jpg' ,
+				'스테이크,야채','소스','관리자',
+				sysdate, 'rice', 2, '당면을 야채와 소고기를 넣고 볶아낸 한국 전통 요리',
+				'1.야채와 소고기를 채썬다./2.야채와 소고기를 넣고 볶는다./3.당면을 삶아 넣고 같이 볶는다./4.맛있게 먹는다.',
+				'소고기가 생명','false' );			
+
+INSERT INTO RECIPE VALUES(
+				recipe_seq.nextVal,'부대찌개' ,'./img/recipe_main/soup/bdjg.jpg' ,
+				'햄,라면,치즈','양파,대파','관리자',
+				sysdate, 'rice', 2, '각종햄과 치즈를 넣고 끓여낸 찌개',
+				'1.야채와 소고기를 채썬다./2.야채와 소고기를 넣고 볶는다./3.당면을 삶아 넣고 같이 볶는다./4.맛있게 먹는다.',
+				'소고기가 생명','false' );				
+				
+				
+								

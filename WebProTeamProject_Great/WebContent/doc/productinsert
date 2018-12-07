@@ -1,0 +1,61 @@
+INSERT INTO product VALUES('새송이버섯',3280,'국산','img/product_main/vegetable/songi.jpg','전문 농업인 김기환 농부의 유기농 새송이','채소','해빗',50,'true','300g');
+INSERT INTO product VALUES('콩나물',1490,'중국산','img/product_main/vegetable/kongnamul.jpg','유기농 숨쉬는 콩나물','채소','종가집',30,'true','210g');
+INSERT INTO product VALUES('양파',2380,'국산','img/product_main/vegetable/yangpa.jpg','친환경 양파','채소','롯데',990,'','1kg');
+INSERT INTO product VALUES('감자',3280,'국산','img/product_main/vegetable/gamja.jpg','친환경 감자','채소','롯데',1580,'','800g');
+INSERT INTO product VALUES('부추',2180,'국산','img/product_main/vegetable/buchu.jpg','친환경 부추','채소','롯데',80,'true','200g');
+INSERT INTO product VALUES('두부',3580,'호주산','img/product_main/vegetable/dubu.jpg','천일염으로 맛을 더한 청정자연의 순수한 맛','채소','CJ',880,'','300g');
+INSERT INTO product VALUES('고추',1980,'국산','img/product_main/vegetable/gochu.jpg','Hav eat 친환경 매운고추','채소','롯데',650,'true','100g');
+
+
+INSERT INTO PRODUCT  VALUES('밥', 2500, '국내산',
+					'./img/product_main/ingrediant/bab.jpg',
+				 	'전자렌지에 1분30초만 돌리면 끝', '식재료', 'cj',1,'false','150g');
+				 	
+INSERT INTO PRODUCT  VALUES('김', 2000, '국내산',
+					'./img/product_main/ingrediant/kim.jpg',
+				 	'그냥 먹으면 됨!', '식재료', '해찬들',1,'true','100g');
+				 	
+INSERT INTO PRODUCT  VALUES('김치', 12000, '국내산',
+					'./img/product_main/ingrediant/kimchi.jpg',
+				 	'전자렌지에 1분30초만 돌리면 끝', '식재료', 'bibigo',1,'false','600g');
+				 	
+				 	
+				 	
+INSERT INTO PRODUCT  VALUES('메밀면', 5000, '국내산',
+					'./img/product_main/ingrediant/memilmyun.jpg',
+				 	'물에 7분만 삶아서 씀', '식재료', '삼성',1,'false','300g');
+				 	
+				 	
+				 					 	
+INSERT INTO PRODUCT  VALUES('소면', 2500, '국내산',
+					'./img/product_main/ingrediant/somyun.jpg',
+				 	'물에 3분 삶으면 될껄?', '식재료', '옛날국수',1,'false','200g');
+				 	
+INSERT INTO PRODUCT  VALUES('우동면', 2500, '국내산',
+					'./img/product_main/ingrediant/udongmyun.jpg',
+				 	'물에 7분 삶으면 되나?', '식재료', '잘모름',1,'false','250g');
+
+INSERT INTO PRODUCT  VALUES('소고기', 2500, '국내산',
+					'./img/product_main/meat/beef.jpg',
+				 	'좋은거야 3+', '고기', '잘모름',1,'true','150g');
+
+INSERT INTO PRODUCT  VALUES('돼지고기', 2500, '국내산',
+					'./img/product_main/meat/pork.jpg',
+				 	'신선해', '고기', '잘모름',1,'true','200g');
+				 					 	
+INSERT INTO PRODUCT  VALUES('닭고기', 2500, '국내산',
+					'./img/product_main/meat/chicken.jpg',
+				 	'냉동임', '고기', '잘모름',1,'true','350g');
+
+				 					 	
+INSERT INTO PRODUCT  VALUES('고추장', 20500, '국내산',
+					'./img/product_main/source/gochujang.jpg',
+				 	'매운거', '소스류', '잘모름',1,'false','100g');
+				 					 	
+INSERT INTO PRODUCT  VALUES('아일랜드 드레싱', 1500, '국내산',
+					'./img/product_main/source/ilanddrs.jpg',
+				 	'맛있어', '소스류', '잘모름',1,'true','100g');
+				 					 	
+INSERT INTO PRODUCT  VALUES('간장', 20000, '국내산',
+					'./img/product_main/source/soysource.jpg',
+				 	'짜', '소스류', '잘모름',1,'false','100g');

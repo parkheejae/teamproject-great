@@ -1,0 +1,7 @@
+INSERT INTO product VALUES('새송이버섯',3280,'국산','img/product_main/vegetable/songi.jpg','전문 농업인 김기환 농부의 유기농 새송이','채소','해빗',50,'true','300g');
+INSERT INTO product VALUES('콩나물',1490,'중국산','img/product_main/vegetable/kongnamul.jpg','유기농 숨쉬는 콩나물','채소','종가집',30,'true','210g');
+INSERT INTO product VALUES('양파',2380,'국산','img/product_main/vegetable/yangpa.jpg','친환경 양파','채소','롯데',990,'','1kg');
+INSERT INTO product VALUES('감자',3280,'국산','img/product_main/vegetable/gamja.jpg','친환경 감자','채소','롯데',1580,'','800g');
+INSERT INTO product VALUES('부추',2180,'국산','img/product_main/vegetable/buchu.jpg','친환경 부추','채소','롯데',80,'true','200g');
+INSERT INTO product VALUES('두부',3580,'호주산','img/product_main/vegetable/dubu.jpg','천일염으로 맛을 더한 청정자연의 순수한 맛','채소','CJ',880,'','300g');
+INSERT INTO product VALUES('고추',1980,'국산','img/product_main/vegetable/gochu.jpg','Hav eat 친환경 매운고추','채소','롯데',650,'true','100g');

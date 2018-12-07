@@ -1,0 +1,73 @@
+create table member (id varchar2(50),
+                     pw varchar2(50),
+                     name varchar2(50),
+                     email varchar2(100),
+                     birthday varchar2(50),
+                     address varchar2(200),
+                     point number,
+                     grade varchar2(50));
+
+create table recipe (no number,
+                     name varchar2(50),
+                     img_urls varchar2(50),
+                     main_ingredients varchar2(50),
+                     sub_ingredients varchar2(50),
+                     writer varchar2(50),
+                     register_date date,
+		     type varchar2(50),
+                     hits number,
+                     descript varchar2(200),
+                     content varchar2(200),
+                     tip varchar2(50),
+                     recommend varchar2(30));
+
+create table review (no number,
+                     writer varchar2(50),
+                     img_urls varchar2(50),
+                     register_date date,
+                     content varchar2(200));
+
+create table product (name varchar2(100),
+                      price number,
+                      origin varchar2(100),
+                      img_urls varchar2(1000),
+                      content varchar2(4000),
+                      type varchar2(50),
+                      brand varchar2(50),
+                      sales_volume number,
+                      recommend varchar2(50),
+                      amount varchar2(50));
+                      
+create table cart(
+                userId varchar(30),
+                name varchar(30),
+                price number,
+                quantity number,
+                img_urls varchar(30));
+
+CREATE SEQUENCE recipe_seq;
+CREATE SEQUENCE review_seq;
+레서피,게시판 글 등록메소드 쿼리문에 시퀀스 넘버를 넣어주세요.
+
+
+
+String INSERT_RECIPE = 
+				"INSERT INTO RECIPE (no ,name ,img_urls ,main_ingredients ,sub_ingredients ,writer ,register_date ,type ,hits ,descript ,content ,tip)"
+				+ " VALUES(?,?, ?, ?, ?, ?, sysdate, ?, ?, ?, ?, ? )";
+				
+				
+INSERT INTO RECIPE VALUES(
+				recipe_seq.nextVal,'간장비빔국' ,'./img/recipe_main/beef/gjbbgs.jpg' ,
+				'소고기','양파,대바,간장','관리자',
+				sysdate, 'beef', 1, '얇게 저민 소고기를 양념에 재워서 구워 먹는 한국인의 대표 양념구이요리',
+				'1.소고기를 저민다/2.양념을 만든다./3.소고기를 양념에 재운다./4.맛있게 먹는다.',
+				'냉장고에 하루정도 재워두신 드시다.','true' );
+                
+			
+			
+			
+			
+			
+			
+			
+			

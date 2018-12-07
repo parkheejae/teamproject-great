@@ -1,9 +1,0 @@
-aaaaaaaa
-ssssssss
-<<<<<<< HEAD
-cccccccc
-=======
-dddddddd
->>>>>>> hotfix
-ffffffff
-zzzzzzzz
